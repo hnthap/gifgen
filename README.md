@@ -1,6 +1,6 @@
 # GIFGen
 
-Extremely Simple Tool to Generate GIF from an Image Folder.
+Simple tool to create GIFs from image files.
 
 ## Getting Started
 
@@ -9,12 +9,13 @@ You can setup this on your Python 3 environment as easy as possible.
 ### Prerequisites
 
 - Python 3
+- Pip
 - Pillow (PIL)
 
 ### Installing
 
 ```bash
-pip install https://github.com/hnthap/gifgen
+pip install git+https://github.com/hnthap/gifgen.git
 ```
 
 After installing, you can simply use it in your code as
@@ -31,7 +32,7 @@ create_gif(image_paths, output, width=512, height=512, duration=100)  # Duration
 Or you can run in CLI (see [cli.py](./cli.py)):
 
 ```bash
-# Make out.gif from images from the folder "images"
+# Make out.gif from image files from the folder "images"
 # You need to replace "./cli.py" with the actual path to "cli.py"
 python ./cli.py images/ out.gif -d 500 --width 512 --height 512
 ```
@@ -56,8 +57,4 @@ who participated in this project.
 
 This project is licensed under the [CC0 1.0 Universal](LICENSE) Creative Commons License - see the [LICENSE.md](LICENSE) file for details.
 
-## Acknowledgments
-
-- Hat tip to anyone whose code is used
-- Inspiration
-- etc
+<!-- ## Acknowledgments -->
