@@ -15,7 +15,8 @@ You can setup this on your Python 3 environment as easy as possible.
 ### Installing
 
 ```bash
-pip install git+https://github.com/hnthap/gifgen.git
+git clone https://github.com/hnthap/gifgen
+pip install -e ./gifgen
 ```
 
 After installing, you can simply use it in your code as
